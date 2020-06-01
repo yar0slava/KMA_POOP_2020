@@ -1,10 +1,8 @@
 #include "widget.h"
 #include "ui_widget.h"
 
-#include <iostream>
 #include <QLabel>
 #include <QGridLayout>
-using namespace std;
 
 Widget::Widget(QWidget *parent)
     : QWidget(parent)
@@ -32,8 +30,6 @@ void Widget::resizeEvent(QResizeEvent *e){
     size.append(QString::number(e->size().width()));
     size.append("  Height: ");
     size.append(QString::number(e->size().height()));
-
-    cout<<size.toStdString();
 
     sizeLabel->clear();
     sizeLabel->setText(size);
