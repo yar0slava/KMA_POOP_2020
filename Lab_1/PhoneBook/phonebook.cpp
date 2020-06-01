@@ -1,12 +1,9 @@
 #include "phonebook.h"
-//#include "ui_phonebookdialog.h"
+
 #include <QLabel>
 #include <QGridLayout>
 #include <QPushButton>
 #include <QMessageBox>
-
-#include <iostream>
-using namespace std;
 
 PhoneBook::PhoneBook(QWidget *parent)
     : QWidget(parent)
@@ -83,9 +80,6 @@ PhoneBook::PhoneBook(QWidget *parent)
 
 void PhoneBook::addPhone()
 {
-//    nextButton->setEnabled(false);
-//    previousButton->setEnabled(false);
-
     updateInterface(AddingMode);
 
     oldName = nameLine->text();
@@ -93,15 +87,6 @@ void PhoneBook::addPhone()
 
     nameLine->clear();
     phoneText->clear();
-
-//    nameLine->setReadOnly(false);
-//    nameLine->setFocus(Qt::OtherFocusReason);
-//    phoneText->setReadOnly(false);
-
-//    addButton->setEnabled(false);
-//    submitButton->show();
-//    cancelButton->show();
-
 }
 
 void PhoneBook::submitPhone()
@@ -131,15 +116,6 @@ void PhoneBook::submitPhone()
 
     updateInterface(NavigationMode);
 
-    //    nameLine->setReadOnly(true);
-    //    phoneText->setReadOnly(true);
-    //    addButton->setEnabled(true);
-    //    submitButton->hide();
-    //    cancelButton->hide();
-
-    //    int number = contacts.size();
-    //    nextButton->setEnabled(number > 1);
-    //    previousButton->setEnabled(number > 1);
 }
 
 void PhoneBook::cancel()
@@ -149,14 +125,6 @@ void PhoneBook::cancel()
 
     phoneText->setText(oldPhone);
     phoneText->setReadOnly(true);
-
-//    addButton->setEnabled(true);
-//    submitButton->hide();
-//    cancelButton->hide();
-
-//    int number = contacts.size();
-//    nextButton->setEnabled(number > 1);
-//    previousButton->setEnabled(number > 1);
 
     updateInterface(NavigationMode);
 }
@@ -290,8 +258,6 @@ void PhoneBook::findByName()
 
 void PhoneBook::findByPhone()
 {
-    cout << "entered";
-
     fbPhonedialog->show();
 
     if (fbPhonedialog->exec() == QDialog::Accepted) {
