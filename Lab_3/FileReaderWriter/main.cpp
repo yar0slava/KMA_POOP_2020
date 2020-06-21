@@ -46,8 +46,8 @@ void rewrite(QString fileFrom, QString fileTo){
 
 int main(int argc, char *argv[])
 {
-    QString filename1 = "C:/Users/Yaroslava/Qt/FileReaderWriter/MyFile1.txt";
-    QString filename2 = "C:/Users/Yaroslava/Qt/FileReaderWriter/MyFile2.txt";
+    QString filename1 = "C:/Users/Yaroslava/Qt/KMA_POOP_2020/Lab_3/FileReaderWriter/MyFile1.txt";
+    QString filename2 = "C:/Users/Yaroslava/Qt/KMA_POOP_2020/Lab_3/FileReaderWriter/MyFile2.txt";
 
     rewrite(filename1, filename2);
 }

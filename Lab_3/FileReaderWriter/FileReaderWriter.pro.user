@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.12.1, 2020-06-01T02:16:46. -->
+<!-- Written by QtCreator 4.12.1, 2020-06-11T00:41:17. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -308,8 +308,9 @@
     </valuelist>
     <value type="int" key="PE.EnvironmentAspect.Base">2</value>
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/Yaroslava/Qt/FileReaderWriter/FileReaderWriter.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/Yaroslava/Qt/FileReaderWriter/FileReaderWriter.pro</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">FileReaderWriter2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:C:/Users/Yaroslava/Qt/KMA_POOP_2020/Lab_3/FileReaderWriter/FileReaderWriter.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">C:/Users/Yaroslava/Qt/KMA_POOP_2020/Lab_3/FileReaderWriter/FileReaderWriter.pro</value>
     <value type="QString" key="RunConfiguration.Arguments"></value>
     <value type="bool" key="RunConfiguration.Arguments.multi">false</value>
     <value type="QString" key="RunConfiguration.OverrideDebuggerStartup"></value>
